@@ -1,0 +1,87 @@
+.submit_btn {
+    float: left;
+    display: block;
+    padding: 5px 30px;
+    outline: none;
+    background-color: #a07cc0;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 25px;
+    font-family: 'open_sansregular';
+    border-radius: 6px;
+    margin: auto 55%;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    background-color: #bd8adf;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+    
+  h2 {
+   text-align: center;
+  }
+    
+  form {
+   max-width: 500px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #a07cc0;
+   border-radius: 5px;
+  }   
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select[id="estado"],
+  
+  textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bd8adf;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"]{
+       background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+input[type="radio"]:checked{
+    background-color: #bd8adf;
+}
+
+.item {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #a07cc0;
+  border-radius: 5px;
+  font-size: 20px;
+
+}
