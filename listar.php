@@ -48,7 +48,3 @@ echo '</table>';
 
 </body>
 </html>
-
-
-
-

@@ -70,5 +70,6 @@ require_once 'db.php';
 </div>
 
 </body>
+
 </html>
 
